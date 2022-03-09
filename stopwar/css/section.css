@@ -1,0 +1,76 @@
+.section{
+    height: 69.25em;
+    /*background-image: url(../images/background.png);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;*/
+    background-color: #E8DEC5;
+    margin: 3em 5.125em 0 4.875em;
+    box-shadow: 0px 20px 70px 13px #00356F, 0px -20px 70px #00448E;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 3.75em;
+    padding: 1em;
+}
+
+nav a{
+    font-family: 'Revolution';
+    margin: 1em;
+    color: #7C7859;
+}
+
+.nav__itemBorder{
+    border: 2px solid black;
+    padding: 10px 15px;
+}
+
+main{
+    margin-top: 5.75em;
+    margin-left: 5em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.title{
+    font-family: 'Headliner', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 9.375em;
+}
+
+.subtitle{
+    font-family: 'Revolution';
+    margin-bottom: 2.125em;
+}
+
+.paragraph{
+    font-family: 'Revolution';
+    font-weight: 400;
+    font-size: 1.25em;
+    color: #7C7859;
+    margin-top: 0.688em;
+}
+
+.main__img{
+    width: 530px;
+}
+
+.paragraph.-button{
+    color: #FFF;
+    background-color: #C74138;
+    padding: 1em 4em;
+    margin-left: 4em;
+}
+
+footer{
+    margin-top: 12em; 
+}
+
+.paragraph.-footer{
+    font-size: 1.5em;
+    text-align: center;
+}

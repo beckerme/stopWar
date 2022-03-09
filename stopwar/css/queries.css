@@ -1,0 +1,172 @@
+@media (min-width: 300px) and (max-width: 900px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div__img{
+        margin-bottom: .75em;
+    }
+
+    .main__img{
+        display: none;
+    }
+
+    .title{
+        text-align: center;
+    }
+
+    .subtitle{
+        text-align: center;
+    }
+
+    .paragraph{
+        margin-top: 1.75em;
+        margin-bottom: .40em;
+    }
+
+    .button__a{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media (min-width: 1px) and (max-width: 1000px){
+    .main__img{
+        display: none;
+    }
+
+    .title{
+        text-align: center;
+    }
+
+    .subtitle{
+        text-align: center;
+    }
+
+    .paragraph{
+        margin-top: 1.75em;
+        margin-bottom: .40em;
+    }
+
+    .button__a{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 654px){
+
+    .section{
+        margin: 3em 1em 0 1em;
+        background-image: none;
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+    }
+
+    .main__img{
+        display: none;
+    }
+
+    .title{
+        text-align: center;
+        
+    }
+
+    main{
+        margin-left: 0;
+    }
+
+    .subtitle{
+        text-align: center;
+    }
+
+    .paragraph{
+        margin-top: 1.75em;
+        margin-bottom: .40em;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .paragraph.-button{
+        margin-left: 0;
+    }
+
+    .button__a{
+        display: flex;
+        justify-content: center;
+    }
+
+    footer{
+        margin-top: 20em;
+    }
+
+    .paragraph.-footer{
+        font-size: .95em;
+    }
+
+    main{
+        margin-top: 5em;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 500px){
+
+    main{
+        margin-top: 8em;
+    }
+
+    .section{
+        margin: 1em 1em 0 1em;
+        background-image: none;
+    }
+
+    nav a{
+        font-size: .55em;
+    }
+
+    .title{
+        text-align: center;
+    }
+
+    .subtitle{
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .paragraph{
+        margin-top: 1.75em;
+        margin-bottom: .40em;
+        font-size: .65em;
+    }
+
+    .button__a{
+        display: flex;
+        justify-content: center;
+    }
+
+    footer{
+        margin-top: 25em;
+        font-size: .80em;
+    }
+}
+
+@media (min-width:300px) and (max-width: 1511px){
+    .title{
+        font-size: 5em;
+    }
+
+    .section{
+        margin: 2em 2em 0 2em;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 376px){
+    footer{
+        margin-top: 22em;
+    }
+}

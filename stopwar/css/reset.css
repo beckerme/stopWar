@@ -1,0 +1,23 @@
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    list-style-type: none;
+    background-color: #0258B5;
+}
+
+@font-face {
+    font-family: 'Revolution';
+    src: url(../fonts/revolution_saji/REVOLUTION.ttf);
+}
+
+@font-face {
+    font-family: 'Headliner';
+    src: url(../fonts/headliner_no_45/HeadlinerNo.45\ DEMO.ttf);
+}
