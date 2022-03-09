@@ -163,6 +163,12 @@
     .section{
         margin: 2em 2em 0 2em;
     }
+
+    .paragraph.-button{
+        position: absolute;
+        top: 30em;
+        left: 4em;
+    }
 }
 
 @media (min-width: 100px) and (max-width: 376px){
